@@ -1,0 +1,13 @@
+check,flagged_rows,percentage
+revol_util_above_100,7343,0.3248154970123875
+dti_above_100,2561,0.1132850998023593
+annual_income_above_10m,3,0.00013270413877668018
+negative_dti,2,8.846942585112011e-05
+open_accounts_exceed_total,2,8.846942585112011e-05
+fico_outside_300_850,0,0.0
+nonpositive_loan_amount,0,0.0
+negative_annual_income,0,0.0
+unexpected_loan_term,0,0.0
+credit_history_after_issue,0,0.0
+fico_low_greater_than_high,0,0.0
+invalid_issue_date,0,0.0
