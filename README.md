@@ -1,1 +1,1 @@
-# P2P-Lending-Default-Prediction
+# LendingClub Loan Default Risk Prediction

@@ -1,0 +1,13 @@
+{
+  "project": "lendingclub_default_risk",
+  "raw_data_path": "data/raw/lending_club_2020_q3.feather",
+  "snapshot_date": null,
+  "prediction_point": "post_credit_check_pre_pricing_provisional",
+  "target": {
+    "Fully Paid": 0,
+    "Charged Off": 1
+  },
+  "cohort_policy": "pending",
+  "split_policy": "pending",
+  "random_seed": 42
+}

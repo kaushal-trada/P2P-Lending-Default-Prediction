@@ -1,0 +1,121 @@
+issue_year,term_months,status,count
+2018,36,current,193201
+2018,60,current,95251
+2018,60,fully paid,33463
+2018,36,fully paid,116488
+2018,36,charged off,28919
+2018,60,charged off,18204
+2018,60,late (31-120 days),2162
+2018,36,in grace period,1943
+2018,36,late (31-120 days),3499
+2018,60,in grace period,1149
+2018,36,late (16-30 days),553
+2018,36,default,68
+2018,60,default,36
+2018,60,late (16-30 days),306
+2019,36,current,286775
+2019,36,fully paid,46576
+2019,60,current,144989
+2019,36,in grace period,2379
+2019,60,late (31-120 days),2154
+2019,60,charged off,4612
+2019,60,fully paid,15264
+2019,36,charged off,8875
+2019,36,late (31-120 days),4074
+2019,36,late (16-30 days),683
+2019,60,in grace period,1316
+2019,60,late (16-30 days),332
+2019,36,default,52
+2019,60,default,26
+2017,36,charged off,42563
+2017,36,late (31-120 days),1640
+2017,36,fully paid,204518
+2017,60,fully paid,43602
+2017,60,current,53795
+2017,60,charged off,23529
+2017,36,current,70272
+2017,36,late (16-30 days),288
+2017,60,late (31-120 days),1229
+2017,36,in grace period,1014
+2017,60,in grace period,781
+2011,36,fully paid,12602
+2011,60,charged off,1798
+2011,60,fully paid,5822
+2011,36,charged off,1499
+2010,60,fully paid,2425
+2010,36,fully paid,7624
+2010,36,charged off,842
+2010,60,charged off,645
+2009,36,fully paid,4122
+2009,36,charged off,594
+2008,36,fully paid,1315
+2008,36,charged off,247
+2007,36,fully paid,206
+2007,36,charged off,45
+2010,60,does not meet the credit policy. status:fully paid,199
+2010,60,does not meet the credit policy. status:charged off,112
+2010,36,does not meet the credit policy. status:fully paid,532
+2010,36,does not meet the credit policy. status:charged off,158
+2009,36,does not meet the credit policy. status:charged off,129
+2009,36,does not meet the credit policy. status:fully paid,436
+2008,36,does not meet the credit policy. status:fully paid,582
+2008,36,does not meet the credit policy. status:charged off,249
+2007,36,does not meet the credit policy. status:fully paid,239
+2007,36,does not meet the credit policy. status:charged off,113
+2013,36,fully paid,88044
+2013,60,charged off,8649
+2013,60,fully paid,25743
+2013,36,charged off,12378
+2015,60,fully paid,82130
+2015,36,fully paid,240995
+2015,60,current,17505
+2015,36,charged off,42178
+2015,60,charged off,37516
+2015,60,in grace period,289
+2015,60,late (16-30 days),76
+2015,60,late (31-120 days),388
+2015,60,default,18
+2014,60,fully paid,53616
+2014,36,fully paid,140255
+2014,36,charged off,22315
+2014,60,charged off,19430
+2014,60,default,3
+2014,60,current,4
+2014,60,in grace period,1
+2014,60,late (31-120 days),5
+2017,60,late (16-30 days),192
+2017,60,default,32
+2017,36,default,124
+2012,36,fully paid,37567
+2012,60,fully paid,7156
+2012,60,charged off,2741
+2012,36,charged off,5903
+2016,60,current,30090
+2016,36,charged off,51299
+2016,60,fully paid,51946
+2016,36,fully paid,272076
+2016,60,charged off,27711
+2016,60,in grace period,462
+2016,60,late (31-120 days),588
+2016,36,default,61
+2016,60,late (16-30 days),104
+2016,60,default,11
+2016,36,current,30
+2016,36,late (31-120 days),21
+2016,36,late (16-30 days),3
+2016,36,in grace period,5
+2020,36,current,95258
+2020,60,current,43846
+2020,36,issued,1573
+2020,60,fully paid,1009
+2020,36,in grace period,452
+2020,36,fully paid,3219
+2020,60,issued,489
+2020,60,in grace period,237
+2020,36,late (31-120 days),247
+2020,36,late (16-30 days),123
+2020,60,late (31-120 days),147
+2020,60,late (16-30 days),59
+2020,60,charged off,21
+2020,36,charged off,35
+2020,36,default,2

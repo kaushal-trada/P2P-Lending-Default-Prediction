@@ -1,1 +1,8 @@
-data/
+data/raw/
+data/interim/
+data/processed/
+data/splits/
+artifacts/models/
+__pycache__/
+.ipynb_checkpoints/
+.env
