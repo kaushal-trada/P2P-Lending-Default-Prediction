@@ -1,0 +1,5 @@
+check,total_rows,affected_rows,status
+invalid_dates,869540,0,PASS
+wrong_term,869540,0,PASS
+wrong_year,869540,0,PASS
+missing_targets,869540,0,PASS

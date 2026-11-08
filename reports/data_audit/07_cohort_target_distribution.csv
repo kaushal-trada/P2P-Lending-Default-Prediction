@@ -1,0 +1,11 @@
+scope,issue_year,target,loan_status,loans,percentage
+overall,,0,Fully Paid,741370,85.26
+overall,,1,Charged Off,128170,14.74
+by_issue_year,2013,1,Charged Off,12378,12.33
+by_issue_year,2013,0,Fully Paid,88044,87.67
+by_issue_year,2014,1,Charged Off,22315,13.73
+by_issue_year,2014,0,Fully Paid,140255,86.27
+by_issue_year,2015,1,Charged Off,42178,14.89
+by_issue_year,2015,0,Fully Paid,240995,85.11
+by_issue_year,2016,1,Charged Off,51299,15.86
+by_issue_year,2016,0,Fully Paid,272076,84.14

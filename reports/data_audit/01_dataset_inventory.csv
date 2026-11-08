@@ -1,0 +1,5 @@
+dataset,file_type,path,exists,size_mb,rows,columns
+Source ZIP archive,ZIP,d:\ML_Projects\P2P-Lending-Default-Prediction\data\raw\archive.zip,True,481.99,,
+Full ZIP conversion,Parquet,d:\ML_Projects\P2P-Lending-Default-Prediction\data\staging\lendingclub_full_raw.parquet,True,376.51,2925493.0,142.0
+Interim raw,Parquet,d:\ML_Projects\P2P-Lending-Default-Prediction\data\interim\lendingclub_2013_2016_36m_raw.parquet,True,94.59,869540.0,146.0
+Interim cohort,Parquet,d:\ML_Projects\P2P-Lending-Default-Prediction\data\interim\lendingclub_2013_2016_36m.parquet,True,97.89,869540.0,142.0

@@ -1,0 +1,15 @@
+dimension,value,loans,percentage
+loan_status,Fully Paid,1497783,51.2
+loan_status,Current,1031016,35.24
+loan_status,Charged Off,362548,12.39
+loan_status,Late (31-120 days),16154,0.55
+loan_status,In Grace Period,10028,0.34
+loan_status,Late (16-30 days),2719,0.09
+loan_status,Issued,2062,0.07
+loan_status,Does not meet the credit policy. Status:Fully Paid,1988,0.07
+loan_status,Does not meet the credit policy. Status:Charged Off,761,0.03
+loan_status,Default,433,0.01
+loan_status,,1,0.0
+term, 36 months,2060077,70.42
+term, 60 months,865415,29.58
+term,,1,0.0
