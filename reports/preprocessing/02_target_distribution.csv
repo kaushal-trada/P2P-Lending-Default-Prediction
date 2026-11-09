@@ -1,0 +1,5 @@
+split,target,loans,percentage,class
+train,0,393667,86.07,Fully Paid
+train,1,63688,13.93,Charged Off
+validation,0,75627,85.16,Fully Paid
+validation,1,13183,14.84,Charged Off
