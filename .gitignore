@@ -7,3 +7,6 @@ artifacts/models/
 __pycache__/
 .ipynb_checkpoints/
 .env
+
+# Generated NumPy data
+*.npz
