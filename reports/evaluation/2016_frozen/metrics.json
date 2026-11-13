@@ -1,0 +1,23 @@
+{
+  "samples": 323375,
+  "defaults": 51299,
+  "default_rate": 0.15863625821414767,
+  "threshold": 0.15609563887119293,
+  "accuracy": 0.6779528411287206,
+  "balanced_accuracy": 0.6433325043405664,
+  "precision": 0.26750846935632894,
+  "recall": 0.5926236378876781,
+  "f1": 0.3686220777961005,
+  "roc_auc": 0.7040002570570838,
+  "pr_auc": 0.30434493073900215,
+  "brier_score": 0.12411955387071112,
+  "mean_predicted_score": 0.13939986562384002,
+  "tn": 188832,
+  "fp": 83244,
+  "fn": 20898,
+  "tp": 30401,
+  "false_positive_rate": 0.3059586292065452,
+  "predicted_positive_rate": 0.35143409354464633,
+  "model_name": "xgboost",
+  "evaluation_period": "2016-01 through 2016-12"
+}
