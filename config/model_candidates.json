@@ -1,0 +1,36 @@
+
+{
+  "xgboost": {
+    "fixed": {
+      "min_child_weight": 10,
+      "subsample": 0.85,
+      "colsample_bytree": 0.85,
+      "reg_lambda": 5,
+      "objective": "binary:logistic",
+      "tree_method": "hist",
+      "eval_metric": "aucpr",
+      "random_state": 42,
+      "n_jobs": 4
+    },
+    "grid": {
+      "model__max_depth": [3, 4],
+      "model__n_estimators": [350, 600],
+      "model__learning_rate": [0.03, 0.05]
+    }
+  },
+  "catboost": {
+    "fixed": {
+      "loss_function": "Logloss",
+      "l2_leaf_reg": 5,
+      "random_seed": 42,
+      "thread_count": 4,
+      "verbose": false,
+      "allow_writing_files": false
+    },
+    "grid": {
+      "model__depth": [4, 5, 6],
+      "model__iterations": [350, 500],
+      "model__learning_rate": [0.05]
+    }
+  }
+}
