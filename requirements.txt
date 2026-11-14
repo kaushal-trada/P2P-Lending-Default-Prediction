@@ -1,10 +1,9 @@
-polars
-pyarrow
+streamlit
+xgboost
+scikit-learn
 pandas
 numpy
-scikit-learn
-matplotlib
-seaborn
-jupyterlab
+polars
+pyarrow
 joblib
-streamlit
+cloudpickle
