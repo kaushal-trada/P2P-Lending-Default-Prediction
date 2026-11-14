@@ -60,17 +60,24 @@ The project has two stages: **model development** (done offline using historical
 
 ```mermaid
 flowchart TD
-    A[Loan information<br/>CSV upload or 15-field Quick Mode] --> B[Input validation]
-    B --> C[Prepare 55 required inputs]
-    C --> C1[Quick Mode fills remaining 40 fields<br/>using historical training defaults]
-    C1 --> D[Saved feature and preprocessing pipeline<br/>type conversion, missing-value handling, encoding]
-    B -->|Full Mode| D
-    D --> E[Tuned XGBoost model]
-    E --> F[Default risk score from 0 to 1]
-    F --> G{Compare with threshold 0.1561}
-    G -->|Score < 0.1561| H[Fully Paid (0)<br/>model prediction]
-    G -->|Score ≥ 0.1561| I[Charged Off (1)<br/>model prediction]
+    A["Loan information"] --> B{"Choose input mode"}
+    B -->|"Full Mode"| C["Upload CSV with 55 features"]
+    B -->|"Quick Mode"| D["Enter 15 loan details"]
+    C --> E["Validate CSV columns and values"]
+    D --> F["Validate form inputs"]
+    F --> G["Fill remaining 40 fields with training defaults"]
+    E -->|"Valid rows"| H["Saved feature and preprocessing pipeline"]
+    E -->|"Invalid rows"| I["Show validation errors and skip invalid rows"]
+    G --> H
+    H --> J["Tuned XGBoost model"]
+    J --> K["Generate default risk score between 0 and 1"]
+    K --> L{"Risk score at least 0.1561?"}
+    L -->|"No"| M["Predicted Fully Paid - Class 0"]
+    L -->|"Yes"| N["Predicted Charged Off - Class 1"]
+    M --> O["Display prediction or export CSV"]
+    N --> O
 ```
+
 
 The **risk score** expresses the model's estimated relative risk. For example, a score of `0.23` is above the saved threshold (`0.1561`), so the system **flags the loan as a predicted default**. This is a classification for further review, **not a guarantee of what will happen or an automatic loan decision**.
 
